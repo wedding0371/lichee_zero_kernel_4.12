@@ -1156,6 +1156,7 @@ deps_net/sunrpc/xprtsock.o := \
   include/linux/sunrpc/svc_xprt.h \
   include/linux/sunrpc/xprtsock.h \
   include/linux/file.h \
+  include/linux/sunrpc/bc_xprt.h \
   include/net/udp.h \
   include/net/ip.h \
   include/linux/ip.h \

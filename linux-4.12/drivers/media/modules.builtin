@@ -1,3 +1,4 @@
+kernel/drivers/media/i2c/ir-kbd-i2c.ko
 kernel/drivers/media/rc/rc-core.ko
 kernel/drivers/media/rc/ir-nec-decoder.ko
 kernel/drivers/media/rc/ir-rc5-decoder.ko
@@ -121,3 +122,13 @@ kernel/drivers/media/rc/keymaps/rc-videomate-tv-pvr.ko
 kernel/drivers/media/rc/keymaps/rc-winfast.ko
 kernel/drivers/media/rc/keymaps/rc-winfast-usbii-deluxe.ko
 kernel/drivers/media/rc/keymaps/rc-su3000.ko
+kernel/drivers/media/usb/gspca/gspca_main.ko
+kernel/drivers/media/usb/gspca/gspca_zc3xx.ko
+kernel/drivers/media/usb/uvc/uvcvideo.ko
+kernel/drivers/media/v4l2-core/videodev.ko
+kernel/drivers/media/v4l2-core/v4l2-common.ko
+kernel/drivers/media/v4l2-core/v4l2-dv-timings.ko
+kernel/drivers/media/v4l2-core/videobuf2-core.ko
+kernel/drivers/media/v4l2-core/videobuf2-v4l2.ko
+kernel/drivers/media/v4l2-core/videobuf2-memops.ko
+kernel/drivers/media/v4l2-core/videobuf2-vmalloc.ko

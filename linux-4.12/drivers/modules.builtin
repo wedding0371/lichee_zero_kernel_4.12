@@ -39,6 +39,7 @@ kernel/drivers/hid/usbhid/usbhid.ko
 kernel/drivers/hwmon/hwmon.ko
 kernel/drivers/i2c/i2c-core.ko
 kernel/drivers/i2c/i2c-dev.ko
+kernel/drivers/i2c/i2c-mux.ko
 kernel/drivers/i2c/algos/i2c-algo-bit.ko
 kernel/drivers/i2c/busses/i2c-mv64xxx.ko
 kernel/drivers/i2c/busses/i2c-sun6i-p2wi.ko
@@ -57,6 +58,7 @@ kernel/drivers/leds/led-class.ko
 kernel/drivers/leds/leds-gpio.ko
 kernel/drivers/leds/trigger/ledtrig-heartbeat.ko
 kernel/drivers/leds/trigger/ledtrig-default-on.ko
+kernel/drivers/media/i2c/ir-kbd-i2c.ko
 kernel/drivers/media/rc/rc-core.ko
 kernel/drivers/media/rc/ir-nec-decoder.ko
 kernel/drivers/media/rc/ir-rc5-decoder.ko
@@ -180,6 +182,16 @@ kernel/drivers/media/rc/keymaps/rc-videomate-tv-pvr.ko
 kernel/drivers/media/rc/keymaps/rc-winfast.ko
 kernel/drivers/media/rc/keymaps/rc-winfast-usbii-deluxe.ko
 kernel/drivers/media/rc/keymaps/rc-su3000.ko
+kernel/drivers/media/usb/gspca/gspca_main.ko
+kernel/drivers/media/usb/gspca/gspca_zc3xx.ko
+kernel/drivers/media/usb/uvc/uvcvideo.ko
+kernel/drivers/media/v4l2-core/videodev.ko
+kernel/drivers/media/v4l2-core/v4l2-common.ko
+kernel/drivers/media/v4l2-core/v4l2-dv-timings.ko
+kernel/drivers/media/v4l2-core/videobuf2-core.ko
+kernel/drivers/media/v4l2-core/videobuf2-v4l2.ko
+kernel/drivers/media/v4l2-core/videobuf2-memops.ko
+kernel/drivers/media/v4l2-core/videobuf2-vmalloc.ko
 kernel/drivers/mfd/mfd-core.ko
 kernel/drivers/mfd/ac100.ko
 kernel/drivers/mfd/axp20x.ko
@@ -227,12 +239,6 @@ kernel/drivers/tty/serial/8250/8250_dw.ko
 kernel/drivers/tty/serial/8250/8250_of.ko
 kernel/drivers/usb/common/usb-common.ko
 kernel/drivers/usb/core/usbcore.ko
-kernel/drivers/usb/gadget/libcomposite.ko
-kernel/drivers/usb/gadget/function/usb_f_acm.ko
-kernel/drivers/usb/gadget/function/u_serial.ko
-kernel/drivers/usb/gadget/function/u_ether.ko
-kernel/drivers/usb/gadget/function/usb_f_ecm.ko
-kernel/drivers/usb/gadget/legacy/g_cdc.ko
 kernel/drivers/usb/gadget/udc/udc-core.ko
 kernel/drivers/usb/host/ehci-hcd.ko
 kernel/drivers/usb/host/ehci-platform.ko

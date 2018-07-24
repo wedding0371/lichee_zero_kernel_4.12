@@ -1212,6 +1212,8 @@ deps_fs/nfs/nfs4xdr.o := \
   fs/nfs/pnfs.h \
   fs/nfs/netns.h \
   include/net/netns/generic.h \
+  fs/nfs/nfs42xdr.c \
+  fs/nfs/nfs42.h \
 
 fs/nfs/nfs4xdr.o: $(deps_fs/nfs/nfs4xdr.o)
 

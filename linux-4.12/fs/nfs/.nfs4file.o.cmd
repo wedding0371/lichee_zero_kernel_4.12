@@ -1198,6 +1198,7 @@ deps_fs/nfs/nfs4file.o := \
     $(wildcard include/config/have/syscall/tracepoints.h) \
     $(wildcard include/config/tracepoint.h) \
   include/trace/define_trace.h \
+  fs/nfs/nfs42.h \
 
 fs/nfs/nfs4file.o: $(deps_fs/nfs/nfs4file.o)
 
