@@ -4,10 +4,10 @@ source_arch/arm/boot/dts/sun8i-v3s-licheepi-zero.dtb := arch/arm/boot/dts/sun8i-
 
 deps_arch/arm/boot/dts/sun8i-v3s-licheepi-zero.dtb := \
   arch/arm/boot/dts/sun8i-v3s.dtsi \
-  arch/arm/boot/dts/include/dt-bindings/interrupt-controller/arm-gic.h \
-  arch/arm/boot/dts/include/dt-bindings/interrupt-controller/irq.h \
   arch/arm/boot/dts/include/dt-bindings/clock/sun8i-v3s-ccu.h \
   arch/arm/boot/dts/include/dt-bindings/reset/sun8i-v3s-ccu.h \
+  arch/arm/boot/dts/include/dt-bindings/interrupt-controller/arm-gic.h \
+  arch/arm/boot/dts/include/dt-bindings/interrupt-controller/irq.h \
   arch/arm/boot/dts/include/dt-bindings/pinctrl/sun4i-a10.h \
   arch/arm/boot/dts/sunxi-common-regulators.dtsi \
   arch/arm/boot/dts/include/dt-bindings/gpio/gpio.h \
